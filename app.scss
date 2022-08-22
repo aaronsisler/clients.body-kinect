@@ -1,0 +1,90 @@
+/*
+ * START
+ * Custom CSS added by Aaron S.
+ */
+
+html {
+  font-size: 62.5% !important;
+  font-family: "Montserrat";
+}
+
+/* Get rid of margin which affects smaller screen size */
+@media only screen and (max-device-width: 764px) {
+  .content_wrap {
+    margin-inline: auto;
+    min-width: 95%;
+  }
+}
+
+/* Desktop nav bar modifications */
+@media only screen and (min-width: 1024px) {
+  /* Gives some block padding to nav */
+  nav {
+    padding-block: 10px;
+  }
+
+  /*  Adjusts the menu item font props */
+  nav li span {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
+
+/* START Custom classnames */
+
+/* Keeps the footer columns off the edge of the screen */
+.footer_column_padding {
+  padding-inline: 25px;
+}
+
+/* Give max width to text blocks */
+.max_width_text_block {
+  max-width: 764px;
+  margin-inline: auto;
+}
+
+/* Sets font size for text blocks */
+.p_tag_text_block {
+  font-size: 1.75rem !important;
+}
+
+/* Create box widgets on Body Work */
+.custom_box_shadow_widget {
+  padding: 1.5rem 1rem 3rem;
+  margin-bottom: 2.5rem !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .custom_box_shadow_widget {
+    border-radius: 5px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+      rgba(9, 30, 66, 0.23) 0px 0px 1px 1px;
+  }
+}
+
+/* END Custom classnames */
+
+/* START Theme based classname mods */
+
+/* Removes the large margin-bottom on section separator */
+.vc_separator {
+  margin-bottom: 0 !important;
+}
+
+/* Stops the site title from showing in the mobile menu */
+.sc_layouts_logo {
+  display: none !important;
+}
+
+/* Hides the author in testimonials */
+.sc_testimonials_item_author_title {
+  display: none;
+}
+
+/* END Theme based classname mods */
+
+/*
+ * END 
+ * Custom CSS added by Aaron S.
+ */

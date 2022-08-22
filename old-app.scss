@@ -1,0 +1,226 @@
+/*
+ * START
+ * Custom CSS added by Aaron S.
+ */
+
+html {
+  font-size: 62.5%;
+}
+
+.max-width-text-block {
+  max-width: 764px;
+  margin-inline: auto;
+}
+
+.services_page_title {
+  display: none;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+.vc_separator {
+  margin-bottom: 0 !important;
+}
+
+.custom_box_shadow_widget {
+  padding: 1.5rem 1rem 3rem;
+  margin-bottom: 2.5rem !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .custom_box_shadow_widget {
+    border-radius: 5px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+      rgba(9, 30, 66, 0.23) 0px 0px 1px 1px;
+  }
+}
+
+.sc_layouts_logo {
+  display: none !important;
+}
+/*
+ * END 
+ * Custom CSS added by Aaron S.
+ */
+
+.top_panel .sc_layouts_row_type_normal .sc_layouts_logo img {
+  max-height: 300px;
+  margin-top: 0px;
+}
+.team_member_page .team_member_brief_info_title {
+  display: none;
+}
+em,
+i,
+.post-date,
+.rss-date.post_date,
+.post_meta_item,
+.post_counters_item,
+.comments_list_wrap .comment_date,
+.comments_list_wrap .comment_time,
+.comments_list_wrap .comment_counters,
+.top_panel .slider_engine_revo .slide_subtitle,
+.logo_slogan,
+fieldset legend,
+figure figcaption,
+.wp-caption .wp-caption-text,
+.wp-caption .wp-caption-dd,
+.wp-caption-overlay .wp-caption .wp-caption-text,
+.wp-caption-overlay .wp-caption .wp-caption-dd,
+.format-audio .post_featured .post_audio_author,
+.trx_addons_audio_player .audio_author,
+.post_item_single .post_content .post_meta,
+.author_bio .author_link,
+.comments_list_wrap .comment_posted,
+.comments_list_wrap .comment_reply {
+  display: none;
+}
+.sc_item_title + .sc_item_button,
+.sc_item_title + .sc_item_button_image,
+.sc_item_subtitle + .sc_item_button,
+.sc_item_subtitle + .sc_item_button_image,
+.sc_item_descr + .sc_item_button,
+.sc_item_descr + .sc_item_button_image,
+.sc_item_content + .sc_item_button,
+.sc_item_content + .sc_item_button_image,
+.sc_item_slider + .sc_item_button,
+.sc_item_slider + .sc_item_button_image,
+.sc_item_columns + .sc_item_button,
+.sc_item_columns + .sc_item_button_image {
+  display: none;
+}
+.sc_team .sc_team_item_thumb .sc_team_item_socials {
+  display: none;
+}
+.sc_item_title {
+  line-height: 1.2em;
+  font-family: "Montserrat";
+  font-size: 24px;
+}
+.trx_addons_hover_mask {
+  display: none;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+input,
+textarea,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+address,
+section,
+video,
+audio {
+  font-family: "Montserrat";
+}
+.menu_mobile .sc_layouts_logo img {
+  max-height: 300px;
+}
+.sc_testimonials_item_author_title {
+  display: none;
+}
+.revslider-initialised .rs-layer:before,
+.revslider-initialised .caption:before,
+.revslider-initialised .tp-caption:before {
+  display: none !important;
+}
+.sc_team_default .sc_team_item_title,
+.sc_team_short.sc_team .sc_team_item_info .sc_team_item_title,
+.sc_team_short.sc_team
+  .sc_team_item_info
+  .sc_team_item_title
+  + .sc_team_item_subtitle {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+.mobile_device .menu_mobile .socials_mobile,
+.mobile_layout .menu_mobile .socials_mobile {
+  position: relative;
+  bottom: auto;
+  margin: 1em 0 0;
+  padding-top: 6em;
+  background: none;
+}
+.mobile_device .menu_mobile .sc_layouts_logo img,
+.mobile_layout .menu_mobile .sc_layouts_logo img {
+  max-height: 250px;
+}
+.mobile_device .menu_mobile .menu_mobile_nav_area,
+.mobile_layout .menu_mobile .menu_mobile_nav_area {
+  max-height: none;
+  margin-top: 2em;
+}
+.tribe-events-c-ical__link-icon-svg path {
+  display: none;
+}
+.trx_addons_scroll_to_top,
+.scheme_default .trx_addons_cv .trx_addons_scroll_to_top {
+  color: #171717;
+  border-color: #f48e88;
+  background-color: #f48e88;
+}
+.scheme_default .sc_button_hover_slide_left {
+  background: linear-gradient(to right, #f48e88 50%, #f48e88 50%) no-repeat
+    scroll right bottom / 210% 100% #f48e88 !important;
+}
+.grecaptcha-badge {
+  visibility: hidden;
+}
