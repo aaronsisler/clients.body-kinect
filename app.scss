@@ -1,7 +1,11 @@
 /*
- * START
- * Custom CSS added by Aaron S.
+ Ordering is:
+* HTML Markup speicific CSS
+* Custom classnames
+* Adjustments to theme CSS
  */
+
+/* START Generic HTML markup adjustments */
 
 html {
   font-size: 62.5% !important;
@@ -30,6 +34,8 @@ html {
     font-weight: 500;
   }
 }
+
+/* END Generic HTML markup adjustments */
 
 /* START Custom classnames */
 
@@ -67,6 +73,29 @@ html {
 
 /* START Theme based classname mods */
 
+.socials_wrap span {
+  font-size: 3.5rem !important;
+  padding-inline: 5px;
+}
+
+/* Remove the silly image and padding in mobile menu */
+.menu_mobile .socials_mobile {
+  background: none !important;
+  padding-top: 0 !important;
+  left: 10px;
+  right: 10px;
+}
+
+/* Keep current link theme color */
+.menu_mobile_inner .current-menu-item > a {
+  color: #f4ada9 !important;
+}
+
+/* Keep hovered link theme color */
+.menu_mobile_inner a:hover {
+  color: #f4ada9 !important;
+}
+
 /* Removes the large margin-bottom on section separator */
 .vc_separator {
   margin-bottom: 0 !important;
@@ -82,9 +111,10 @@ html {
   display: none;
 }
 
-/* END Theme based classname mods */
+/* Removes top padding from calendar */
 
-/*
- * END 
- * Custom CSS added by Aaron S.
- */
+.tribe-events-l-container {
+  padding-top: 20px !important;
+}
+
+/* END Theme based classname mods */
