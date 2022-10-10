@@ -12,6 +12,11 @@ html {
   font-family: "Montserrat";
 }
 
+/* Warm up the page instead of white */
+.body_wrap {
+  background-color: snow;
+}
+
 /* Get rid of margin which affects smaller screen size */
 @media only screen and (max-device-width: 764px) {
   .content_wrap {
@@ -33,6 +38,10 @@ html {
     font-size: 2rem;
     font-weight: 500;
   }
+}
+
+nav li a {
+  background-color: snow;
 }
 
 /* END Generic HTML markup adjustments */
@@ -112,9 +121,17 @@ html {
 }
 
 /* Removes top padding from calendar */
-
 .tribe-events-l-container {
   padding-top: 20px !important;
+}
+
+/* Updates font CSS for text before calendar */
+.tribe-events-before-html {
+  margin-bottom: 3.5rem !important;
+}
+
+.tribe-events-before-html span {
+  font-size: 2rem !important;
 }
 
 /* END Theme based classname mods */
